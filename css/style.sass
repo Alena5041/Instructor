@@ -1,0 +1,290 @@
+$greyColor: #f0f0f0
+$orangeColor: #ff6600
+$blueColor: #5bc4f1
+
+.logo
+  color: $orangeColor
+  margin-bottom: 0
+
+.bg-phone
+  width: 30px
+  height: 31px
+  background: url("../img/css_sprites.png") -528px -80px
+  display: inline-block
+  vertical-align: middle
+
+.numberPhone
+  display: inline-block
+  margin: 0
+  color: $orangeColor
+
+select
+  outline: none
+  option
+    outline: none
+
+.menuHeader
+  background-color: $greyColor
+
+ul
+  padding: 0
+
+.navbar-nav
+  margin: auto
+
+.bull
+  color: #ffffff
+
+.videoSection
+  background: url("../img/headerImg.jpeg")
+  img
+    width: 100%
+
+.buttons
+  button
+    display: inline-block
+
+button
+  p
+    margin-bottom: 0
+
+.btn
+  border-radius: 20px !important
+
+.videoSection
+  .btn-blue
+    margin-right: 10px
+
+.btn-blue
+  color: #ffffff
+  background-color: $blueColor
+  border-color: $blueColor
+
+.btn-orange
+  color: #ffffff
+  background-color: $orangeColor
+  border-color: $orangeColor
+
+.video
+  margin: 110px 0 70px 0
+
+.owl-prev, .owl-next
+  span
+    display: none
+
+.whySection, .functionSection
+  background-color: $greyColor
+
+.topic
+  text-align: center
+  margin: 90px 0 40px 0
+
+.line
+  width: 40px
+
+.whySection
+  .list
+    padding-bottom: 70px
+
+.whyStudySection
+  background: url("../img/hand.png") no-repeat right bottom
+
+.whySection li, .whyStudySection li, .lastSection li
+  list-style-type: none
+  &:before
+    content: "•"
+    color: $blueColor
+    margin-right: 5px
+
+.whyStudySection, .functionSection
+  .btn
+    margin: 60px 5px 70px 5px
+
+.centerButton
+  text-align: center
+  margin-bottom: 70px
+
+.blockAbout
+  display: table
+
+.bg-certifikace, .bg-pozvanky, .bg-lektor, .bg-testovani
+  transform: scale(0.7)
+  display: table-cell
+
+.textAbout
+  display: table-cell
+
+.bg-certifikace
+  width: 110px
+  height: 110px
+  background: url("../img/css_sprites.png") -10px -95px
+
+.bg-pozvanky
+  width: 110px
+  height: 110px
+  background: url("../img/css_sprites.png") -10px -225px
+
+.bg-lektor
+  width: 110px
+  height: 110px
+  background: url("../img/css_sprites.png") -140px -225px
+
+.bg-testovani
+  width: 110px
+  height: 110px
+  background: url("../img/css_sprites.png") -267px -10px
+
+.bg-IMB
+  width: 111px
+  height: 44px
+  background: url("../img/css_sprites.png") -397px -80px
+
+.bg-airBank
+  width: 163px
+  height: 50px
+  background: url("../img/css_sprites.png") -397px -10px
+
+.bg-neumann
+  width: 237px
+  height: 65px
+  background: url("../img/css_sprites.png") -10px -10px
+
+.lastRow
+  padding-bottom: 70px
+
+.lastSection
+  form
+    border: 1px solid $greyColor
+    border-radius: 20px
+    width: 291px
+  input[type="search"]
+    border: none
+    margin-left: 17px
+    outline: none
+
+.footer
+  background-color: $greyColor
+  .copyright
+    p
+      float: right
+      margin-bottom: 0
+  a
+    p
+      margin-bottom: 0
+      color: #000000
+      margin-right: 10px
+      display: inline-block
+  a
+    p:hover
+    color: $orangeColor
+
+.icons
+  text-align: center
+  margin: 20px 0
+
+.bg-facebook
+  width: 44px
+  height: 44px
+  background: url("../img/css_sprites.png") -397px -144px
+  display: inline-block
+
+.bg-twitter
+  width: 44px
+  height: 44px
+  background: url("../img/css_sprites.png") -461px -144px
+  display: inline-block
+
+.bg-feed
+  width: 44px
+  height: 44px
+  background: url("../img/css_sprites.png") -397px -208px
+  display: inline-block
+
+
+
+@media only screen and (max-width: 1200px)
+  .bull
+    display: none
+
+@media only screen and (max-width: 900px)
+  .videoSection
+    background: none
+    background-color: #3f5572
+
+@media only screen and (max-width: 768px)
+  .videoSection
+    text-align: center
+  .video
+    margin: 30px 0 20px 0
+
+@media only screen and (max-width: 768px)
+  .whyStudySection
+    background: none
+
+@media only screen and (max-width: 413px)
+  .bg-certifikace, .bg-pozvanky, .bg-lektor, .bg-testovani
+    transform: scale(0.6)
+    display: block
+    margin: auto
+  .textAbout
+    display: block
+    text-align: center
+  .blockAbout
+    display: block
+  .whyStudySection, .functionSection
+    .btn
+      margin: 5px 0 20px 0
+
+@media only screen and (max-width: 1000px)
+  .lastRow
+    img
+      width: 80%
+
+@media only screen and (max-width: 768px)
+  .lastRow
+    img
+      display: none
+
+@media (max-width: 768px)
+  html
+    p, li
+      font-size: 0.7rem
+    h1
+      font-size: 1.6rem
+    h2
+      font-size: 1.1rem
+    h4,
+      font-size: 0.9rem
+
+@media (min-width: 768px)
+  html
+    p, li
+      font-size: 0.8rem
+    h1
+      font-size: 1.9rem
+    h2
+      font-size: 1.4rem
+    h4,
+      font-size: 1.1rem
+
+@media (min-width: 992px)
+  html
+    p, li
+      font-size: 0.9rem
+    h1
+      font-size: 2.2rem
+    h2
+      font-size: 1.7rem
+    h4,
+      font-size: 1.3rem
+
+@media (min-width: 1200px)
+  html
+    p, li
+      font-size: 1rem
+    h1
+      font-size: 2.5rem
+    h2
+      font-size: 2rem
+    h4,
+      font-size: 1.5rem
